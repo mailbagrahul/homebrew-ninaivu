@@ -19,7 +19,8 @@ cask "ninaivu" do
   ]
 
   caveats <<~EOS
-    Ninaivu is ad-hoc signed (not notarized yet). On first launch, right-click
-    Ninaivu.app in /Applications and choose Open, then confirm.
+    Ninaivu is ad-hoc signed (not notarized yet). If macOS says it cannot
+    verify the developer on first launch, open System Settings › Privacy &
+    Security and click "Open Anyway", then launch it again.
   EOS
 end
