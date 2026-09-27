@@ -1,6 +1,6 @@
 cask "ninaivu" do
-  version "0.2.0"
-  sha256 "d008e141e343c66e60e90439fcf2ecb97b6375f48bd77e4036be1c33f699acd6"
+  version "0.3.0"
+  sha256 "7110627398f0879842e9c52bd1d7b513779f8b9799b1cbd5e4d1a433a12b29f3"
 
   url "https://github.com/mailbagrahul/ninaivu-releases/releases/download/v#{version}/Ninaivu-#{version}.zip"
   name "Ninaivu"
@@ -8,6 +8,8 @@ cask "ninaivu" do
   homepage "https://github.com/mailbagrahul/ninaivu-releases"
 
   depends_on macos: ">= :sonoma"
+
+  auto_updates true
 
   app "Ninaivu.app"
 
