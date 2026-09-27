@@ -7,7 +7,7 @@ cask "ninaivu" do
   desc "Menu bar reminders: pull a thread or type 'tea 12m'"
   homepage "https://github.com/mailbagrahul/ninaivu-releases"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   auto_updates true
 
