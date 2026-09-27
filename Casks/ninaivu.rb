@@ -1,6 +1,6 @@
 cask "ninaivu" do
-  version "0.4.0"
-  sha256 "5a4fb4a240d68a060136bce7c5fb470fb59a87002b047316e05a6c8fea9a519c"
+  version "0.4.1"
+  sha256 "b2e4621113ad31c862f2dc9312d2d6dcc12a3eace30c8b5bec1b5639d4aa2caa"
 
   url "https://github.com/mailbagrahul/ninaivu-releases/releases/download/v#{version}/Ninaivu-#{version}.zip"
   name "Ninaivu"
